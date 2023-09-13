@@ -1,0 +1,40 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    color: lightcoral;
+    background-color: black;
+}
+
+h3 {
+    color: seashell;
+    background-color: rgb(109, 107, 107);
+}
+
+h4 {
+    color: rgb(253, 183, 183);
+    background-color: rgb(107, 0, 0);
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+div {
+    color: lightcoral;
+    background-color: gray;
+}
+
+.commentspan {
+    color: rgb(255, 193, 168);
+}
