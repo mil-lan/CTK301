@@ -1,0 +1,55 @@
+h1 {
+    color:white;
+}
+
+#head1 {
+    background-color: rgb(133, 165, 255);
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+#doctorquote {
+    color: orange;
+    
+}
+
+h3 {
+    background-color: yellow;
+}
+
+#infernotext {
+    color:red;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+#fathertext {
+    background-color: lightgreen;
+}
+
+h5 {
+    color:red;
+}
+
+#daughter {
+    background-color: yellow;
+}
+
+#role {
+    color:blue;
+}
