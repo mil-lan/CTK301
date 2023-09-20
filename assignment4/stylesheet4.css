@@ -1,0 +1,102 @@
+body {
+    background-image: url(redbirdbg.jpg);
+}
+
+h1 {
+    color: orange;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+h2 {
+    color: orange;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: orange;
+    background-color: rgb(109, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color: orange;
+    background-color: rgb(107, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+a:hover {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+a:visited {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+div {
+    color: lightcoral;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+br {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.commentspan {
+    color: rgb(255, 193, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.reggies {
+    border: 5px solid #000000;
+    background-color: yellow;
+    padding: 5px 5px 5px 5px;
+
+}
