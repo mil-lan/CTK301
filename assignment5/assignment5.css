@@ -1,0 +1,75 @@
+h1 {
+    background-color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    padding: 20px
+}
+
+body {
+    background-image: url(a5bg.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    width: 160px;
+    background-color: navy;
+    color: navy
+}
+
+nav li a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: rgb(58, 58, 235);
+}
+
+#bodytext {
+    background-color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+
+#bodytext a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#bodytext a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#bodytext p {
+    text-align: justify;
+}
+
+footer {
+    border: 5px solid white;
+    padding: 10px;
+    background-color: navy;
+}
+
+footer p {
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
