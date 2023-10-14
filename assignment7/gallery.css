@@ -1,0 +1,143 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;  
+    border: 3px solid #2d40c9;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+}
+
+header {
+    grid-column: span 12;
+    padding: 0px;
+    border-bottom: 4px solid #2d40c9;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    display: block;
+    padding: 10px;
+}
+
+header a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom, #1335ae, #1543c0, #1651d2, #165fe4, #136ef6);
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    width: 240px;
+    float: left;
+  }
+
+nav li a {
+    color: rgb(0, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-right: 4px solid #2d40c9;
+    border-bottom: 4px solid #2d40c9;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    display: block;
+    text-indent: 10px;
+  }
+
+nav li a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom, #1335ae, #1543c0, #1651d2, #165fe4, #136ef6);
+}
+
+#evelyn {
+    grid-column: span 4;
+    background-color: white;
+}
+
+#waymond {
+    grid-column: span 4;
+    background-color: white;
+}
+
+#joy {
+    grid-column: span 4;
+    background-color: white;
+}
+
+main h2 {
+    color: #2d40c9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid #2d40c9;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+main p {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: blue;
+}
+
+
+#evelynimg {
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#waymondimg {
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#joyimg {
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 3px solid #2d40c9;
+    background-color: rgb(217, 8, 8);
+    padding: 10px;
+}
+
+
