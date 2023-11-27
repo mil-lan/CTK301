@@ -30,6 +30,21 @@
     border: 10px solid rgb(109, 109, 109);
   }
 
+  #myCarousel {
+    margin-bottom: 24px;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    width: 772px;
+  }
+
+  #myCarousel img {
+    width: 772px;
+  }
+
   #soundbox {
     background-color: rgb(109, 109, 109);
     padding-bottom: 10px;

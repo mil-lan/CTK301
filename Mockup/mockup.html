@@ -15,6 +15,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 
+<!--Carousel code-->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
     <link rel="stylesheet" href="mockup.css">
 </head>
 
@@ -50,7 +54,13 @@
         
         <h2>Featured</h2>
 
-        <img id="featimg" src="IMG_1408.PNG" alt="Delusionalmeme">
+        <!-- <img id="featimg" src="IMG_1408.PNG" alt="Delusionalmeme"> -->
+
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="IMG_1408.PNG"></div>
+            <div class="f-carousel__slide"><img src="alyssaportrait.png"></div>
+            <!-- <div class="f-carousel__slide"><img src="IMG_1408.PNG"></div> -->
+        </div>
 
         <div id="soundbox">
         <h3>Beautiful Sound</h3>
@@ -64,6 +74,13 @@
     </aside>
 
     </div>
+
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: true };
+        new Carousel(container, options);
+    </script>
+
 </body>
 
 </html>
