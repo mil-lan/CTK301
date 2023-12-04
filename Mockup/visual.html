@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mockup</title>
+    <title>M-LAN</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +16,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 
-<!--Carousel code-->
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+<!--Fancybox code-->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 
-    <link rel="stylesheet" href="mockup.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -31,9 +31,10 @@
 
         <ul>
             <li><a href="mockup.html">Home</a></li>
-            <li><a href="visual.html">Visual</a></li>
+            <li><a href="">Visual</a></li>
             <li><a href="contact.html">Contact + Social</a></li>
         </ul>
+
 
         <footer>Illinois State University</footer>
 
@@ -41,25 +42,24 @@
 
     <aside>
         <header>
-            <h1>Home</h1>
+            <h1>Visual</h1>
         </header>
         
-        <h2>Featured</h2>
-
-        <div id="myCarousel" class="f-carousel">
-            <div class="f-carousel__slide"><img src="IMG_1408.PNG"></div>
-            <div class="f-carousel__slide"><img src="alyssaportrait.png"></div>
-        </div>
+        <a href="IMG_1408.PNG" data-fancybox="gallery" data-caption="Delusional Meme">
+            <img src="IMG_1408.PNG" width="400px">
+          </a>
+          <a href="alyssaportrait.png" data-fancybox="gallery" data-caption="OC Portrait">
+            <img src="alyssaportrait.png" width="400px">
+          </a>
         
     </aside>
 
     </div>
+   
 
-    <script>
-        const container = document.getElementById("myCarousel");
-        const options = { infinite: true };
-        new Carousel(container, options);
-    </script>
+    <script>   
+        Fancybox.bind("[data-fancybox]", {});
+     </script>
 
 </body>
 

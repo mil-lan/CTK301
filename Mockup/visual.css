@@ -13,30 +13,17 @@
     grid-column-gap: 24px;
   }
 
+
   aside {
     grid-column: span 2;
   }
 
   aside h2 {
-    background-color: rgb(255, 231, 96);
+    color: white;
+    background-color: rgb(97, 97, 97);
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     padding: 10px;
-  }
-
-  #myCarousel {
-    margin-bottom: 24px;
-  }
-  
-  #myCarousel .f-carousel__slide {
-    text-align: center;
-    padding: 20px;
-    background: #eee;
-    width: 772px;
-  }
-
-  #myCarousel img {
-    width: 772px;
   }
 
   aside header {
@@ -90,6 +77,7 @@
     border: 3px solid #424242;
     border-radius: 10px;
   }
+
 
   footer {
     grid-column: span 1fr;

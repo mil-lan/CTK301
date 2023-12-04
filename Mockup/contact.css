@@ -13,30 +13,17 @@
     grid-column-gap: 24px;
   }
 
+
   aside {
     grid-column: span 2;
   }
 
   aside h2 {
-    background-color: rgb(255, 231, 96);
+    color: white;
+    background-color: rgb(97, 97, 97);
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     padding: 10px;
-  }
-
-  #myCarousel {
-    margin-bottom: 24px;
-  }
-  
-  #myCarousel .f-carousel__slide {
-    text-align: center;
-    padding: 20px;
-    background: #eee;
-    width: 772px;
-  }
-
-  #myCarousel img {
-    width: 772px;
   }
 
   aside header {
@@ -89,6 +76,32 @@
     color: #ffffff;
     border: 3px solid #424242;
     border-radius: 10px;
+  }
+
+  #form {
+    margin-top: 10px;
+    border: 3px solid #424242;
+  }
+
+  #social {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #twitter {
+    color: white;
+    padding: 15px;
+    padding-left: 360px;
+    padding-right: 360px;
+    background-color: black;
+    border: 3px solid white;
+  }
+
+  #twitter:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-color: black;
   }
 
   footer {
