@@ -35,6 +35,9 @@
     font-size: 20px;
     padding: 1px;
   }
+  p {
+    font-family: 'Titillium Web', sans-serif;
+  }
 
   main {
     grid-column: span 1fr;
